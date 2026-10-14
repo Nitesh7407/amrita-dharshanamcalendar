@@ -1,0 +1,139 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Festival {
+  id                 String             @id @default(uuid())
+  name               String
+  slug               String             @unique
+  description        String
+  category           String
+  region             String
+  date               String             // YYYY-MM-DD
+  year               Int
+  source             String
+  verificationStatus String             @default("verified") // verified, tentative, pending_review
+  imageUrl           String?
+  deities            String?
+  significance       String?
+  poojaChecklist     String?            // JSON string of step-by-step checklist
+  createdAt          DateTime           @default(now())
+  updatedAt          DateTime           @updatedAt
+  festivalOccasions  FestivalOccasion[]
+}
+
+model Occasion {
+  id                 String             @id @default(uuid())
+  name               String
+  slug               String             @unique
+  date               String             // YYYY-MM-DD
+  year               Int
+  occasionType       String             // amrita_darshanam, amrita_institution, traditional_festival, special_puja
+  description        String
+  institution        String?            // e.g. Amrita School of Engineering, Chennai
+  source             String
+  verificationStatus String             @default("verified") // verified, tentative, pending_review
+  poojaChecklist     String?
+  createdAt          DateTime           @default(now())
+  updatedAt          DateTime           @updatedAt
+  occasionSlokhas    OccasionSlokha[]
+  festivalOccasions  FestivalOccasion[]
+}
+
+model Slokha {
+  id                 String           @id @default(uuid())
+  name               String
+  slug               String           @unique
+  alternativeNames   String?
+  deity              String
+  category           String
+  origin             String?
+  significance       String?
+  overallMeaning     String?
+  sourceReference    String?
+  isFeatured         Boolean          @default(false)
+  sequenceOrder      Int              @default(0)
+  createdAt          DateTime         @default(now())
+  updatedAt          DateTime         @updatedAt
+  versions           SlokhaVersion[]
+  occasionSlokhas    OccasionSlokha[]
+}
+
+model SlokhaVersion {
+  id                 String   @id @default(uuid())
+  slokhaId           String
+  language           String   // sanskrit, tamil, telugu, english
+  script             String   // devanagari, tamil, telugu, latin
+  contentType        String   // original_text, transliteration, translation, meaning
+  text               String
+  versesJson         String?  // JSON array of parsed verses [{ verseNumber: 1, text: "...", meaning: "..." }]
+  meaning            String?
+  pdfPath            String?
+  sourceDocument     String
+  verificationStatus String   @default("verified") // verified, pending_review, incomplete
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  slokha             Slokha   @relation(fields: [slokhaId], references: [id], onDelete: Cascade)
+
+  @@unique([slokhaId, language])
+}
+
+model OccasionSlokha {
+  id              String   @id @default(uuid())
+  occasionId      String
+  slokhaId        String
+  sequenceOrder   Int
+  associationType String   @default("parayanam") // parayanam, dhyanam, stotram, ashtottara
+  notes           String?
+  sourceReference String?
+  occasion        Occasion @relation(fields: [occasionId], references: [id], onDelete: Cascade)
+  slokha          Slokha   @relation(fields: [slokhaId], references: [id], onDelete: Cascade)
+
+  @@unique([occasionId, slokhaId])
+}
+
+model FestivalOccasion {
+  id         String   @id @default(uuid())
+  festivalId String
+  occasionId String
+  festival   Festival @relation(fields: [festivalId], references: [id], onDelete: Cascade)
+  occasion   Occasion @relation(fields: [occasionId], references: [id], onDelete: Cascade)
+
+  @@unique([festivalId, occasionId])
+}
+
+model AdminUser {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  name         String
+  passwordHash String
+  role         String   @default("admin") // admin, editor
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model AuditReview {
+  id             String   @id @default(uuid())
+  entityType     String   // slokha, festival, occasion, version
+  entitySlug     String
+  title          String
+  sourceDocument String
+  status         String   // verified, incomplete, flagged_for_review
+  message        String
+  createdAt      DateTime @default(now())
+}
+
+model Feedback {
+  id        String   @id @default(uuid())
+  name      String
+  email     String
+  category  String   @default("general") // general, correction, prayer_request, festival_date
+  message   String
+  status    String   @default("pending") // pending, reviewed, resolved
+  createdAt DateTime @default(now())
+}

@@ -1,0 +1,1061 @@
+{
+  "timestamp": "2026-10-14T15:11:13.155783Z",
+  "sourceDocuments": [
+    "ENGLISH.docx",
+    "SANSKRIT.docx",
+    "TAMIL.docx",
+    "TELUGU.docx",
+    "SRI MAHAGANAPATHI HOMAM JULY.docx"
+  ],
+  "totalCanonicalSlokhas": 26,
+  "flaggedReviewItems": 29,
+  "auditItems": [
+    {
+      "entityType": "version",
+      "entitySlug": "vaidyanathashtakam",
+      "title": "Sri Vaidyanathashtakam (Tamil)",
+      "sourceDocument": "TAMIL.docx",
+      "status": "flagged_for_review",
+      "message": "Version not present in uploaded TAMIL.docx. Marked as not available yet."
+    },
+    {
+      "entityType": "version",
+      "entitySlug": "vaidyanathashtakam",
+      "title": "Sri Vaidyanathashtakam (Telugu)",
+      "sourceDocument": "TELUGU.docx",
+      "status": "flagged_for_review",
+      "message": "Version not present in uploaded TELUGU.docx. Marked as not available yet."
+    },
+    {
+      "entityType": "version",
+      "entitySlug": "venkateswara-prapatti",
+      "title": "Sri Venkateswara Prapatti (Telugu)",
+      "sourceDocument": "TELUGU.docx",
+      "status": "flagged_for_review",
+      "message": "Version not present in uploaded TELUGU.docx. Marked as not available yet."
+    },
+    {
+      "entityType": "version",
+      "entitySlug": "sudarshana-ashtakam",
+      "title": "Sri Sudarshana Ashtakam (Sanskrit)",
+      "sourceDocument": "SANSKRIT.docx",
+      "status": "flagged_for_review",
+      "message": "Version not present in uploaded SANSKRIT.docx. Marked as not available yet."
+    },
+    {
+      "entityType": "version",
+      "entitySlug": "panchayudha-stotram",
+      "title": "Sri Panchayudha Stotram (English)",
+      "sourceDocument": "ENGLISH.docx",
+      "status": "flagged_for_review",
+      "message": "Version not present in uploaded ENGLISH.docx. Marked as not available yet."
+    },
+    {
+      "entityType": "version",
+      "entitySlug": "panchayudha-stotram",
+      "title": "Sri Panchayudha Stotram (Tamil)",
+      "sourceDocument": "TAMIL.docx",
+      "status": "flagged_for_review",
+      "message": "Version not present in uploaded TAMIL.docx. Marked as not available yet."
+    },
+    {
+      "entityType": "version",
+      "entitySlug": "panchayudha-stotram",
+      "title": "Sri Panchayudha Stotram (Telugu)",
+      "sourceDocument": "TELUGU.docx",
+      "status": "flagged_for_review",
+      "message": "Version not present in uploaded TELUGU.docx. Marked as not available yet."
+    },
+    {
+      "entityType": "version",
+      "entitySlug": "dwadasa-nama-panjaram",
+      "title": "Sri Vishnu Dwadasa Nama Panjara Stotram (Sanskrit)",
+      "sourceDocument": "SANSKRIT.docx",
+      "status": "flagged_for_review",
+      "message": "Version not present in uploaded SANSKRIT.docx. Marked as not available yet."
+    },
+    {
+      "entityType": "version",
+      "entitySlug": "mahalakshmi-ashtakam",
+      "title": "Sri Mahalakshmi Ashtakam (Sanskrit)",
+      "sourceDocument": "SANSKRIT.docx",
+      "status": "flagged_for_review",
+      "message": "Version not present in uploaded SANSKRIT.docx. Marked as not available yet."
+    },
+    {
+      "entityType": "version",
+      "entitySlug": "ashtalakshmi-stotram",
+      "title": "Ashtalakshmi Stotram (Sanskrit)",
+      "sourceDocument": "SANSKRIT.docx",
+      "status": "flagged_for_review",
+      "message": "Version not present in uploaded SANSKRIT.docx. Marked as not available yet."
+    },
+    {
+      "entityType": "version",
+      "entitySlug": "kshama-prarthana",
+      "title": "Kshama Prarthana / Samarpanam (Sanskrit)",
+      "sourceDocument": "SANSKRIT.docx",
+      "status": "flagged_for_review",
+      "message": "Version not present in uploaded SANSKRIT.docx. Marked as not available yet."
+    },
+    {
+      "entityType": "slokha",
+      "entitySlug": "sri-lalita-sahasranama-stotram",
+      "title": "Sri Lalitasahasranama Stotram",
+      "sourceDocument": "ENGLISH.docx & SRI MAHAGANAPATHI HOMAM JULY.docx",
+      "status": "incomplete",
+      "message": "Title appears at line 7 in ENGLISH.docx without body text. Listed as item #7 in SRI MAHAGANAPATHI HOMAM JULY.docx parayanam."
+    },
+    {
+      "entityType": "slokha",
+      "entitySlug": "sri-vishnu-sahasranama-stotram",
+      "title": "Sri Vishnu Sahasranama Stotram",
+      "sourceDocument": "ENGLISH.docx & SRI MAHAGANAPATHI HOMAM JULY.docx",
+      "status": "incomplete",
+      "message": "Title appears at line 224 in ENGLISH.docx without body text. Listed as item #31 in SRI MAHAGANAPATHI HOMAM JULY.docx parayanam."
+    },
+    {
+      "entityType": "slokha",
+      "entitySlug": "amma-ashtottara-satanamavali",
+      "title": "Amma Ashtottara Satanamavali",
+      "sourceDocument": "SRI MAHAGANAPATHI HOMAM JULY.docx",
+      "status": "incomplete",
+      "message": "Listed as item #6 in Homam document: \"(will be performed by Swamiji)\". Prayer text reserved for administrator review."
+    },
+    {
+      "entityType": "slokha",
+      "entitySlug": "medha-suktham",
+      "title": "Medha Suktham",
+      "sourceDocument": "SRI MAHAGANAPATHI HOMAM JULY.docx",
+      "status": "incomplete",
+      "message": "Listed as item #25 in Homam parayanam. Text not provided in language DOCX files."
+    },
+    {
+      "entityType": "slokha",
+      "entitySlug": "aikyamathya-suktham",
+      "title": "Aikyamathya Suktham",
+      "sourceDocument": "SRI MAHAGANAPATHI HOMAM JULY.docx",
+      "status": "incomplete",
+      "message": "Listed as item #26 in Homam parayanam. Text not provided in language DOCX files."
+    },
+    {
+      "entityType": "slokha",
+      "entitySlug": "purusha-suktham",
+      "title": "Purusha Suktham",
+      "sourceDocument": "SRI MAHAGANAPATHI HOMAM JULY.docx",
+      "status": "incomplete",
+      "message": "Listed as item #27 in Homam parayanam. Text not provided in language DOCX files."
+    },
+    {
+      "entityType": "slokha",
+      "entitySlug": "sri-suktham",
+      "title": "Sri Suktham",
+      "sourceDocument": "SRI MAHAGANAPATHI HOMAM JULY.docx",
+      "status": "incomplete",
+      "message": "Listed as item #28 in Homam parayanam. Text not provided in language DOCX files."
+    },
+    {
+      "entityType": "slokha",
+      "entitySlug": "sikshavalli-11th-anuvakam",
+      "title": "Sikshavalli - 11th Anuvakam",
+      "sourceDocument": "SRI MAHAGANAPATHI HOMAM JULY.docx",
+      "status": "incomplete",
+      "message": "Listed as item #29 in Homam parayanam. Text not provided in language DOCX files."
+    },
+    {
+      "entityType": "slokha",
+      "entitySlug": "sri-mahalakshmi-stotram",
+      "title": "Sri Mahalakshmi Stotram",
+      "sourceDocument": "SRI MAHAGANAPATHI HOMAM JULY.docx",
+      "status": "incomplete",
+      "message": "Listed as item #39 in Homam parayanam. Distinct from Mahalakshmi Ashtakam."
+    }
+  ],
+  "verifiedPrays": [
+    {
+      "id": "slokha-amma-dhyanam",
+      "name": "Sri Amma Dhyanam",
+      "slug": "amma-dhyanam",
+      "category": "Dhyanam",
+      "deity": "Sri Mata Amritanandamayi Devi (Amma)",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 1,
+          "charCount": 244,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 1,
+          "charCount": 199,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 1,
+          "charCount": 221,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 1,
+          "charCount": 194,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-mahaganapathi-dhyanam",
+      "name": "Sri Mahaganapathi Dhyanam",
+      "slug": "mahaganapathi-dhyanam",
+      "category": "Dhyanam",
+      "deity": "Lord Ganesha",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 3,
+          "charCount": 267,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 3,
+          "charCount": 239,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 3,
+          "charCount": 258,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 3,
+          "charCount": 235,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-sankata-nashana-ganesha-stotram",
+      "name": "Sankata Nashana Ganesha Stotram",
+      "slug": "sankata-nashana-ganesha-stotram",
+      "category": "Ganesha Stotrams",
+      "deity": "Lord Ganesha",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 8,
+          "charCount": 840,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 8,
+          "charCount": 721,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 8,
+          "charCount": 819,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 8,
+          "charCount": 714,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-mahaganesha-pancharatnam",
+      "name": "Sri Mahaganesha Pancharatnam",
+      "slug": "mahaganesha-pancharatnam",
+      "category": "Ganesha Stotrams",
+      "deity": "Lord Ganesha",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 6,
+          "charCount": 1072,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 6,
+          "charCount": 922,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 6,
+          "charCount": 1016,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 6,
+          "charCount": 906,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-guru-stotram",
+      "name": "Sri Guru Stotram (Guru Vandanam)",
+      "slug": "guru-stotram",
+      "category": "Guru Stotrams",
+      "deity": "Satguru / Parambrahma",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 1,
+          "charCount": 1359,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 2,
+          "charCount": 1227,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 14,
+          "charCount": 1353,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 1,
+          "charCount": 1187,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-gurvashtakam",
+      "name": "Sri Gurvashtakam",
+      "slug": "gurvashtakam",
+      "category": "Guru Stotrams",
+      "deity": "Satguru",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 9,
+          "charCount": 1341,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 9,
+          "charCount": 1186,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 9,
+          "charCount": 1333,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 9,
+          "charCount": 1172,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-guru-paduka-stotram",
+      "name": "Sri Guru Paduka Stotram",
+      "slug": "guru-paduka-stotram",
+      "category": "Guru Stotrams",
+      "deity": "Guru Padukas (Sacred Sandals of the Guru)",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 9,
+          "charCount": 1155,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 9,
+          "charCount": 1081,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 9,
+          "charCount": 1220,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 9,
+          "charCount": 1069,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-dakshinamurthy-stotram",
+      "name": "Sri Dakshinamurthy Stotram",
+      "slug": "dakshinamurthy-stotram",
+      "category": "Shiva Stotrams",
+      "deity": "Lord Dakshinamurthy (Shiva as the Primordial Guru)",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 20,
+          "charCount": 3413,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 19,
+          "charCount": 2857,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 19,
+          "charCount": 3158,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 20,
+          "charCount": 2963,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-lingashtakam",
+      "name": "Sri Lingashtakam",
+      "slug": "lingashtakam",
+      "category": "Shiva Stotrams",
+      "deity": "Lord Shiva (Shiva Linga)",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 9,
+          "charCount": 1124,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 9,
+          "charCount": 986,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 9,
+          "charCount": 1089,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 9,
+          "charCount": 947,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-shiva-panchakshari-stotram",
+      "name": "Sri Shiva Panchakshari Stotram",
+      "slug": "shiva-panchakshari-stotram",
+      "category": "Shiva Stotrams",
+      "deity": "Lord Shiva",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 6,
+          "charCount": 816,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 6,
+          "charCount": 634,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 6,
+          "charCount": 744,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 6,
+          "charCount": 672,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-kalabhairava-ashtakam",
+      "name": "Sri Kalabhairava Ashtakam",
+      "slug": "kalabhairava-ashtakam",
+      "category": "Shiva Stotrams",
+      "deity": "Lord Kalabhairava",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 10,
+          "charCount": 1745,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 9,
+          "charCount": 1310,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 10,
+          "charCount": 1609,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 10,
+          "charCount": 1439,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-shiva-tandava-stotram",
+      "name": "Sri Shiva Tandava Stotram",
+      "slug": "shiva-tandava-stotram",
+      "category": "Shiva Stotrams",
+      "deity": "Lord Shiva",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 15,
+          "charCount": 2652,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 15,
+          "charCount": 2221,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 15,
+          "charCount": 2538,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 15,
+          "charCount": 2137,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-chandrasekhara-ashtakam",
+      "name": "Sri Chandrasekhara Ashtakam",
+      "slug": "chandrasekhara-ashtakam",
+      "category": "Shiva Stotrams",
+      "deity": "Lord Shiva (Chandrasekhara)",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 10,
+          "charCount": 1943,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 10,
+          "charCount": 1570,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 10,
+          "charCount": 1791,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 10,
+          "charCount": 1514,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-vaidyanathashtakam",
+      "name": "Sri Vaidyanathashtakam",
+      "slug": "vaidyanathashtakam",
+      "category": "Shiva Stotrams",
+      "deity": "Lord Shiva (Vaidyanatha - Divine Healer)",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 11,
+          "charCount": 1358,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 11,
+          "charCount": 1215,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-totakashtakam",
+      "name": "Sri Totakashtakam",
+      "slug": "totakashtakam",
+      "category": "Guru Stotrams",
+      "deity": "Sri Adi Shankaracharya",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 8,
+          "charCount": 1039,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 8,
+          "charCount": 820,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 8,
+          "charCount": 909,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 8,
+          "charCount": 807,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-bilvashtakam",
+      "name": "Sri Bilvashtakam",
+      "slug": "bilvashtakam",
+      "category": "Shiva Stotrams",
+      "deity": "Lord Shiva",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 22,
+          "charCount": 2114,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 23,
+          "charCount": 1922,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 24,
+          "charCount": 2095,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 14,
+          "charCount": 1118,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-garudagamana-tava",
+      "name": "Maha Vishnu Stotram (Garudagamana Tava)",
+      "slug": "garudagamana-tava",
+      "category": "Vishnu Stotrams",
+      "deity": "Lord Maha Vishnu",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 7,
+          "charCount": 779,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 7,
+          "charCount": 603,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 7,
+          "charCount": 655,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 7,
+          "charCount": 598,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-venkateswara-stotram",
+      "name": "Sri Venkateswara Stotram",
+      "slug": "venkateswara-stotram",
+      "category": "Vishnu Stotrams",
+      "deity": "Lord Venkateswara (Balaji)",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 11,
+          "charCount": 1405,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 11,
+          "charCount": 1126,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 11,
+          "charCount": 1238,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 11,
+          "charCount": 1111,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-venkateswara-prapatti",
+      "name": "Sri Venkateswara Prapatti",
+      "slug": "venkateswara-prapatti",
+      "category": "Vishnu Stotrams",
+      "deity": "Lord Venkateswara & Goddess Padmavati",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 17,
+          "charCount": 2632,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 26,
+          "charCount": 3668,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 17,
+          "charCount": 2455,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-sudarshana-ashtakam",
+      "name": "Sri Sudarshana Ashtakam",
+      "slug": "sudarshana-ashtakam",
+      "category": "Vishnu Stotrams",
+      "deity": "Lord Sudarshana (Divine Discus of Vishnu)",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 10,
+          "charCount": 1689,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 10,
+          "charCount": 1477,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 10,
+          "charCount": 1326,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-govinda-namavali",
+      "name": "Govinda Namavali",
+      "slug": "govinda-namavali",
+      "category": "Namavali",
+      "deity": "Lord Venkateswara / Govinda",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 1,
+          "charCount": 3306,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 38,
+          "charCount": 5947,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 1,
+          "charCount": 3127,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 1,
+          "charCount": 2920,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-panchayudha-stotram",
+      "name": "Sri Panchayudha Stotram",
+      "slug": "panchayudha-stotram",
+      "category": "Vishnu Stotrams",
+      "deity": "The Five Sacred Weapons of Lord Vishnu",
+      "versions": {
+        "sanskrit": {
+          "script": "devanagari",
+          "verseCount": 10,
+          "charCount": 1088,
+          "sourceDocument": "SANSKRIT.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-dwadasa-nama-panjaram",
+      "name": "Sri Vishnu Dwadasa Nama Panjara Stotram",
+      "slug": "dwadasa-nama-panjaram",
+      "category": "Vishnu Stotrams",
+      "deity": "Lord Vishnu (Twelve Names Armour)",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 9,
+          "charCount": 901,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 9,
+          "charCount": 806,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 11,
+          "charCount": 1009,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-mahalakshmi-ashtakam",
+      "name": "Sri Mahalakshmi Ashtakam",
+      "slug": "mahalakshmi-ashtakam",
+      "category": "Devi Stotrams",
+      "deity": "Goddess Mahalakshmi",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 11,
+          "charCount": 1146,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 11,
+          "charCount": 1044,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 8,
+          "charCount": 730,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-ashtalakshmi-stotram",
+      "name": "Ashtalakshmi Stotram",
+      "slug": "ashtalakshmi-stotram",
+      "category": "Devi Stotrams",
+      "deity": "Ashta Lakshmi",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 26,
+          "charCount": 2393,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 24,
+          "charCount": 1906,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 16,
+          "charCount": 1775,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "id": "slokha-kshama-prarthana",
+      "name": "Kshama Prarthana / Samarpanam",
+      "slug": "kshama-prarthana",
+      "category": "Dhyanam",
+      "deity": "Lord Narayana",
+      "versions": {
+        "english": {
+          "script": "latin",
+          "verseCount": 1,
+          "charCount": 371,
+          "sourceDocument": "ENGLISH.docx",
+          "status": "verified"
+        },
+        "tamil": {
+          "script": "tamil",
+          "verseCount": 5,
+          "charCount": 464,
+          "sourceDocument": "TAMIL.docx",
+          "status": "verified"
+        },
+        "telugu": {
+          "script": "telugu",
+          "verseCount": 3,
+          "charCount": 357,
+          "sourceDocument": "TELUGU.docx",
+          "status": "verified"
+        }
+      }
+    }
+  ]
+}
